@@ -1,0 +1,165 @@
+/* FOR PHONES */
+@media (max-width: 600px) {
+  .navbar-container {
+    padding: 20px 40px;
+  }
+
+  .header {
+    min-height: 50vh;
+  }
+
+  .navbar-list {
+    display: none;
+  }
+
+  .hero {
+    padding: 20px 40px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hamburger {
+    display: inline;
+  }
+
+  .btn {
+    padding: 10px 20px;
+  }
+
+  .hero-btn {
+    padding: 10px 20px;
+  }
+
+  /* ABOUT */
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 30px 40px;
+  }
+
+  .hidden {
+    margin-top: 20px;
+  }
+
+  .hidden button {
+    display: none;
+  }
+
+  /* PROJECTS */
+  .projects {
+    padding: 0 40px;
+  }
+
+  .project-heading h1 {
+    font-size: 30px;
+  }
+
+  .project {
+    grid-template-columns: 1fr;
+  }
+
+  /* EXPERTISE */
+  .expertise-container {
+    padding: 20px 40px;
+  }
+
+  .expertise-container h2 {
+    font-size: 25px;
+  }
+
+  .absolute {
+    bottom: 75%;
+  }
+
+  .table {
+    font-size: 30px;
+  }
+
+  .absolute h5 {
+    font-size: 12px;
+  }
+
+  /* TEAM */
+  .team-container {
+    padding: 20px 40px;
+  }
+
+  .team {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .team-heading h1 {
+    font-size: 20px;
+  }
+
+  .team-absolute h2 {
+    font-size: 14px;
+  }
+
+  .team-absolute h3 {
+    font-size: 12px;
+    padding: 5px 0;
+  }
+
+  .team-absolute p {
+    font-size: 10px;
+  }
+  .team-absolute {
+    margin-bottom: 10px;
+  }
+
+  /* NEWSLETTER */
+  .newsletter {
+    grid-template-columns: 1fr;
+  }
+
+  .letter {
+    padding: 40px;
+  }
+
+  .letter h1 {
+    font-size: 30px;
+  }
+
+  .letter p {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+
+  .footer-container h2 {
+    font-size: 10px;
+  }
+}
+
+/*FOR TABLETS */
+@media (600px <= width <= 1050px) {
+  .header {
+    min-height: 60vh;
+  }
+
+  .navbar-list {
+    gap: 10px;
+    font-size: 12px;
+  }
+
+  .hidden button {
+    display: none;
+  }
+
+  /* EXPERTISE */
+  .absolute {
+    bottom: 50%;
+  }
+
+  .team {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+}
+
+/* DESKTOPS */
+@media (min-width: 1050px) {
+}
